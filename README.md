@@ -24,4 +24,5 @@ There are an algorithm to combine words + suffixes in a meaningful order. You ma
 # Input Files:
 
 closeMeaningVerbs keep synonyms verbs together.
+
 synonyms.txt keep synonyms nouns and sentences.txt keep sentences that are parsed from corpus(1150haber.rar).
