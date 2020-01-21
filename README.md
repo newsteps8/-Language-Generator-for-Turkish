@@ -1,6 +1,13 @@
 # -Language-Generator-for-Turkish
 We require a system to generate words and sentences in Turkish based on certain calculations and rules. Assume that ascending order Turkish alphabet is assigned numerical values starting from 1. (e.g. letter_values = {'a':1, 'b':2, 'c':3, 'ç':4, 'd':5, 'e':6, ...} ).
 
+# Prerequisites
+*pip install import_ipynb
+*pip install Jpype1
+*pip install pandas 
+*pip install re
+*download Zemberek.jar file and reference it's path into modules
+
 # Module 1: 
 Generates given number of words whose sum of letter values equal to a given number.
 (e.g. sum of letter values for "yabancılar" or "şirket" is 100)
@@ -13,3 +20,4 @@ For this module, you can not see meaningful sentences but the sentences are synt
 # Module 3: 
 Generate a sentence whose sum of letter values equal to a given number. This sentence are both syntactically and semantically correct (as much as possible!).
 There are an algorithm to combine words + suffixes in a meaningful order. You may extend this to not just neighboring words but the words co-occur in the sentences or in the documents.
+
